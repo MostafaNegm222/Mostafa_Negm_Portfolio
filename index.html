@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mostafa Negm Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Schibsted+Grotesk:wght@400..700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <nav class="pill" aria-label="Main">
+    <a class="mark" href="#top" aria-label="Mostafa Negm, back to top">MN<sup>&reg;</sup></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="hire">Hire me</a>
+    </div>
+    <button class="round" id="theme" aria-label="Switch light and dark theme" title="Switch theme">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+    </button>
+    <button class="round menu" id="menu" aria-label="Open menu" aria-expanded="false">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="shell wide">
+    <div class="hero-meta mono">
+      <span>Front-End Developer</span>
+      <span>Ismailia, Egypt</span>
+      <span class="hide-sm">Portfolio 2026</span>
+    </div>
+
+    <div class="kin-wrap">
+    <h1 class="kin" id="kin" aria-label="Mostafa Negm">
+      <span class="kin-row" data-text="MOSTAFA"></span>
+      <span class="kin-row outline" data-text="NEGM"></span>
+    </h1>
+
+    <a class="badge" href="#contact" aria-label="Open to front-end roles. Go to contact">
+      <svg viewBox="0 0 200 200" class="spin" aria-hidden="true">
+        <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#circ" textLength="486" lengthAdjust="spacing">OPEN TO FRONT-END ROLES &#8226; OPEN TO FRONT-END ROLES &#8226; </textPath></text>
+      </svg>
+      <span class="arrow">&#8599;</span>
+    </a>
+    </div>
+
+    <div class="hero-foot">
+      <p class="lead">I build fast, accessible interfaces with React, Next.js, Angular and TypeScript, and connect them to Node.js and MongoDB back ends. I also teach the MEAN stack at NTI and front-end at ITI.</p>
+      <div class="hero-cta">
+        <a class="btn solid mag" href="#projects">See my work</a>
+        <a class="btn line mag" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticks" aria-hidden="true">
+    <div class="tick yellow"><div class="tick-track" data-ticker="React.js,Next.js,Angular,TypeScript,Tailwind CSS,Node.js,MongoDB"></div></div>
+    <div class="tick blue"><div class="tick-track rev" data-ticker="Clean code,Accessible UI,REST APIs,Figma to code,Component driven,Agile"></div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="block blue" id="about">
+  <div class="shell">
+    <p class="label mono">About</p>
+    <p class="statement" id="statement">I turn Figma designs into accessible, reusable component-based interfaces, wire them to REST APIs, and teach the same craft to more than fifty students at ITI and NTI.</p>
+
+    <div class="stats">
+      <div class="stat"><b data-count="2" data-suffix="+">2+</b><span>Years of hands-on experience</span></div>
+      <div class="stat"><b data-count="50" data-suffix="+">50+</b><span>Students trained</span></div>
+      <div class="stat"><b data-count="4">4</b><span>Roles at ITI and NTI</span></div>
+      <div class="stat"><b data-count="5">5</b><span>Featured projects</span></div>
+    </div>
+
+    <div class="about-cols">
+      <p>I started with a Computing and Control Engineering degree at Suez Canal University, then moved into web development through the Information Technology Institute (ITI) internship programs.</p>
+      <p>Since then I have built full-stack applications, led UX/UI improvements with user research and Figma prototypes, and moved into teaching. Explaining REST design, authentication and state management every week keeps my own code honest.</p>
+      <p>I work in Agile teams, write components other people can reuse, and care about performance and accessibility from the first commit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="block yellow" id="skills">
+  <div class="shell">
+    <p class="label mono">Skills</p>
+    <h2 class="big-title">Tools I use daily</h2>
+    <div class="skills" id="skills-list"></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="exp" id="experience">
+  <div class="shell">
+    <p class="label mono">Experience</p>
+    <h2 class="big-title">Building, then teaching</h2>
+
+    <div class="stack" id="stack">
+      <article class="xcard c-card" style="--i:0">
+        <div class="xyear" aria-hidden="true">2025<small>&rarr;</small></div>
+        <div class="xbody">
+          <p class="xdate mono">Sep 2025 – Present</p>
+          <h3>Full Stack (MEAN) Instructor</h3>
+          <p class="xorg">National Telecommunication Institute (NTI) · Excellence and Creative Center, Suez Canal Authority · Ismailia</p>
+          <ul>
+            <li>Deliver hands-on training in MongoDB, Express.js, Angular and Node.js, taking trainees from fundamentals to complete real-world applications.</li>
+            <li>Teach REST API design, authentication and authorization, and database modeling, and review trainee code for quality and best practices.</li>
+            <li>Break complex front-end and back-end concepts into practical, project-based lessons trainees can apply immediately.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xcard c-blue" style="--i:1">
+        <div class="xyear" aria-hidden="true">2024<small>&rarr;</small></div>
+        <div class="xbody">
+          <p class="xdate mono">Jul 2024 – Present</p>
+          <h3>Front-End Instructor (External)</h3>
+          <p class="xorg">Information Technology Institute (ITI) · Ismailia &amp; Zagazig</p>
+          <ul>
+            <li>Trained 50+ students in HTML5, CSS3, SASS, Bootstrap 5, UI/UX principles and React.js.</li>
+            <li>Guided students through hands-on projects to build functional, responsive and accessible web applications.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xcard c-yellow" style="--i:2">
+        <div class="xyear" aria-hidden="true">24<small>/25</small></div>
+        <div class="xbody">
+          <p class="xdate mono">Nov 2024 – Apr 2025</p>
+          <h3>Front-End &amp; UI/UX Development Intern</h3>
+          <p class="xorg">Information Technology Institute (ITI) · Internship Training Program · Ismailia</p>
+          <ul>
+            <li>Built responsive web applications with HTML, CSS, JavaScript, TypeScript and Vue/Nuxt, optimized for performance across devices.</li>
+            <li>Led UX/UI improvements through user research and high-fidelity Figma designs to increase user engagement.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xcard c-dark" style="--i:3">
+        <div class="xyear" aria-hidden="true">23<small>/24</small></div>
+        <div class="xbody">
+          <p class="xdate mono">Nov 2023 – Apr 2024</p>
+          <h3>Full Stack (MEARN) Web Development Intern</h3>
+          <p class="xorg">Information Technology Institute (ITI) · Internship Training Program · Ismailia</p>
+          <ul>
+            <li>Developed scalable full-stack applications using MongoDB, Express.js, React/Angular and Node.js.</li>
+            <li>Designed and integrated RESTful APIs to improve data flow and overall system efficiency.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="proj" id="projects">
+  <div class="shell">
+    <p class="label mono">Projects</p>
+    <h2 class="big-title">Selected work</h2>
+    <p class="hint mono">Hover a row to preview it</p>
+
+    <div class="plist">
+
+      <article class="prow">
+        <div class="ptitle"><h3>Zaytona Restaurant System</h3>
+          <p class="ptags mono">Nuxt 3 / Node.js / MongoDB</p></div>
+        <p class="pdesc">A full-stack restaurant platform with authentication, interactive menu browsing and a multi-step reservation flow with secure payment processing.</p>
+        <div class="plinks"><a data-link="zaytona.github">Code</a><a data-link="zaytona.live">Live demo</a></div>
+        <div class="peek"><div class="pk" style="--b:#FFE23D"><div class="pk-bar"><i></i><i></i><i></i></div><div class="pk-plate"></div><i class="pk-l w60"></i><i class="pk-pill"></i></div></div>
+      </article>
+
+      <article class="prow">
+        <div class="ptitle"><h3>Full-Stack E-Commerce Platform</h3>
+          <p class="ptags mono">Angular / Express.js / MongoDB / Node.js</p></div>
+        <p class="pdesc">Product browsing, filtering and search with a shopping cart, built from interactive reusable components and clean-code principles for maintainability.</p>
+        <div class="plinks"><a data-link="shop.github">Code</a><a data-link="shop.live">Live demo</a></div>
+        <div class="peek"><div class="pk" style="--b:#2438FF"><div class="pk-bar"><i></i><i></i><i></i></div><div class="pk-grid"><b></b><b></b><b></b><b></b><b></b><b></b></div></div></div>
+      </article>
+
+      <article class="prow">
+        <div class="ptitle"><h3>TaskFlow</h3>
+          <p class="ptags mono">React / TypeScript / Redux / Tailwind</p></div>
+        <p class="pdesc">A drag-and-drop Kanban board with typed state management, REST API integration and persistent boards and tasks.</p>
+        <div class="plinks"><a data-link="taskflow.github">Code</a><a data-link="taskflow.live">Live demo</a></div>
+        <div class="peek"><div class="pk" style="--b:#FF6B9A"><div class="pk-bar"><i></i><i></i><i></i></div><div class="pk-cols"><div><i></i><b></b><b></b></div><div><i></i><b></b></div><div><i></i></div></div></div></div>
+      </article>
+
+      <article class="prow">
+        <div class="ptitle"><h3>Job Board Dashboard</h3>
+          <p class="ptags mono">Angular / RxJS / TypeScript</p></div>
+        <p class="pdesc">A job listing app with reactive search and filters using RxJS, route guards and lazy-loaded modules.</p>
+        <div class="plinks"><a data-link="jobboard.github">Code</a><a data-link="jobboard.live">Live demo</a></div>
+        <div class="peek"><div class="pk" style="--b:#38D6A8"><div class="pk-bar"><i></i><i></i><i></i></div><div class="pk-search"></div><div class="pk-rows"><b></b><b></b><b></b></div></div></div>
+      </article>
+
+      <article class="prow">
+        <div class="ptitle"><h3>ITI Examination System</h3>
+          <p class="ptags mono">JavaScript ES6 / HTML5 / CSS3</p></div>
+        <p class="pdesc">An online exam platform with responsive layouts and an intuitive, student-focused interface.</p>
+        <div class="plinks"><a data-link="exam.github">Code</a><a data-link="exam.live">Live demo</a></div>
+        <div class="peek"><div class="pk" style="--b:#FF9F43"><div class="pk-bar"><i></i><i></i><i></i></div><div class="pk-time"><i></i></div><i class="pk-l w80"></i><div class="pk-opts"><b></b><b class="sel"></b><b></b></div></div></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="block dark" id="contact">
+  <div class="shell wide">
+    <p class="label mono">Contact</p>
+    <h2 class="hello">Say<br>hello.</h2>
+    <p class="clead">I am looking for a front-end role where I can ship interfaces and keep learning.</p>
+
+    <div class="mail-row">
+      <span class="mail" id="mail">mostafanegm0002@gmail.com</span>
+      <button class="copy mag" data-copy="mostafanegm0002@gmail.com">Copy email</button>
+    </div>
+
+    <div class="cgrid">
+      <div class="citem"><small class="mono">Phone</small><span id="phone">+20 115 218 4250</span><button class="copy small" data-copy="+20 115 218 4250">Copy</button></div>
+      <a class="citem" data-link="linkedin"><small class="mono">LinkedIn</small><span>Mostafa Negm</span><i aria-hidden="true">&#8599;</i></a>
+      <a class="citem" data-link="github"><small class="mono">GitHub</small><span>MostafaNegm222</span><i aria-hidden="true">&#8599;</i></a>
+      <div class="citem"><small class="mono">Based in</small><span>Ismailia, Egypt</span></div>
+    </div>
+
+    <footer class="foot mono"><span>&copy; 2026 Mostafa Negm</span><a href="#top">Back to top &uarr;</a></footer>
+  </div>
+</section>
+
+</main>
+
+<div class="float" id="float" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
