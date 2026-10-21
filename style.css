@@ -1,9 +1,4 @@
-/* =====================================================================
-   MOSTAFA NEGM PORTFOLIO  -  style.css
-   Layout concept: poster-style colour blocks, one kinetic variable-font
-   headline, stacked experience cards, and a project list with live previews.
-   HOW TO EDIT: change colours/fonts in the :root block below.
-   ===================================================================== */
+
 
 :root{
   /* palette */
@@ -250,3 +245,6 @@ a.citem[aria-disabled="true"]{opacity:.5;cursor:not-allowed}
   .js .rv{opacity:1;transform:none}
   .w{opacity:1}
 }
+
+.pk-photo{padding:0;background:#fff}
+.pk-photo img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
