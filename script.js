@@ -1,10 +1,6 @@
-/* =====================================================================
-   MOSTAFA NEGM PORTFOLIO  -  script.js
-   1) Paste your links in the LINKS block below.
-   2) Skill lists live in the SKILLS array.
-   ===================================================================== */
 
-/* ---------- 1. YOUR LINKS (full URLs, e.g. "https://github.com/MostafaNegm222") ---------- */
+
+/* ---------- 1. YOUR LINKS (full URLs) ---------- */
 const LINKS = {
   linkedin: "https://www.linkedin.com/in/mostafa-a-negm",
   github: "https://github.com/MostafaNegm222",
